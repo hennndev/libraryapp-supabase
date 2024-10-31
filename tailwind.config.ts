@@ -8,12 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      fontFamily: {
+        playwrite: ["Playwrite GB S", "sans-serif"]
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 };
 export default config;
