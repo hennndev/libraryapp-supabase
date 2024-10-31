@@ -1,9 +1,12 @@
 import React from 'react'
+import MemberForm from '@/app/components/dashboard/MemberForm'
 
-const page = () => {
+const AddMember = () => {
     return (
-        <div>page</div>
+        <section className='flex-1 py-10 px-5'>
+            <MemberForm/>
+        </section>
     )
 }
 
-export default page
+export default AddMember

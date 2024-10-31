@@ -34,11 +34,9 @@ const SignupForm = () => {
                     <div className='flex-end'>
                         <Link href='#' className='text-xs hover:underline text-gray-400 -mt-2'>Forgot Password?</Link>
                     </div>
-                    <div className="flex-center">
-                        <button className='w-full px-14 py-2 rounded-[100px] bg-[#55AD9B] text-white font-medium text-sm tracking-tight'>
-                            Sign up
-                        </button>
-                    </div>
+                    <button className='w-full px-14 py-2 rounded-[100px] bg-[#55AD9B] text-white font-medium text-sm tracking-tight'>
+                        Sign up
+                    </button>
                     <div className='!mt-10'>
                         <div className='border-b border-1.5 border-gray-100'></div>
                         <p className='text-center text-[12px] text-gray-400 py-2 px-8 bg-white -mt-4 w-max mx-auto'>Or</p>

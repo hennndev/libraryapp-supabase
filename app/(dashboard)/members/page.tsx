@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsSortUp } from "react-icons/bs"
-import { RiFile2Fill, RiFilterFill } from "react-icons/ri"
+import { RiFilterFill } from "react-icons/ri"
 
 const Members = () => {
     return (
