@@ -10,7 +10,7 @@ const BooksBorrowing = () => {
     moment.locale('id')
     return (
         <section className='flex flex-1 flex-col'>
-            <Header title='Peminjaman buku' placeholder='Cari status buku yang dipinjam...'/>
+            <Header title='Pengembalian buku' placeholder='Cari status buku yang dipinjam...'/>
             <section className='flex-1 py-10 px-5'>
                 <div className='flex-end space-x-3 mb-5'>
                     <div className='bg-white w-[48px] h-[50px] rounded-md flex-center'>
