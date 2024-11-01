@@ -3,20 +3,9 @@ import Link from 'next/link'
 import { BsSortUp } from "react-icons/bs"
 import { RiFilterFill } from "react-icons/ri"
 
-const Members = () => {
+const BooksReturning = () => {
     return (
         <section className='flex-1 py-10 px-5'>
-            <div className='flex-end space-x-3 mb-5'>
-                <div className='bg-white w-[48px] h-[50px] rounded-md flex-center'>
-                    <BsSortUp className='text-gray-600 text-2xl'/>
-                </div>
-                <div className='bg-white w-[48px] h-[48px] rounded-md flex-center'>
-                    <RiFilterFill className='text-gray-600 text-2xl'/>
-                </div>
-                <Link href='/members/add-member' className='outline-none border-none bg-blue-500 text-white rounded-md py-3 px-5'>
-                    Tambah anggota
-                </Link>
-            </div>
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                 <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -248,4 +237,4 @@ const Members = () => {
     )
 }
 
-export default Members
+export default BooksReturning

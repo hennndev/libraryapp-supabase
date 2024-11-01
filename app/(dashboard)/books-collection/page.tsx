@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { BsSortUp } from "react-icons/bs"
 import { RiFilterFill } from "react-icons/ri"
 
-const Members = () => {
+const BooksCollection = () => {
     return (
         <section className='flex-1 py-10 px-5'>
             <div className='flex-end space-x-3 mb-5'>
@@ -13,8 +13,8 @@ const Members = () => {
                 <div className='bg-white w-[48px] h-[48px] rounded-md flex-center'>
                     <RiFilterFill className='text-gray-600 text-2xl'/>
                 </div>
-                <Link href='/members/add-member' className='outline-none border-none bg-blue-500 text-white rounded-md py-3 px-5'>
-                    Tambah anggota
+                <Link href='/books-collection/add-book' className='outline-none border-none bg-blue-500 text-white rounded-md py-3 px-5'>
+                    Tambah buku
                 </Link>
             </div>
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -25,16 +25,19 @@ const Members = () => {
                                 No
                             </th>
                             <th scope="col" className="px-6 py-4">
-                                Nama
+                                Title
                             </th>
                             <th scope="col" className="px-6 py-4">
-                                NIM
+                                ISBN
                             </th>
                             <th scope="col" className="px-6 py-4">
-                                Prodi
+                                Author
                             </th>
                             <th scope="col" className="px-6 py-4">
-                                Semester
+                                Tahun
+                            </th>
+                            <th scope="col" className="px-6 py-4">
+                                Penerbit
                             </th>
                             <th scope="col" className="px-6 py-4">
                                 Detail
@@ -49,20 +52,25 @@ const Members = () => {
                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 1
                             </th>
-                            <td className="px-6 py-4">
-                                Zulfa Aulia H
+                            <td className="px-6 py-4 w-[300px]">
+                                Pemrograman Desktop edisi I Desktop Desktop Desktop Desktop 
                             </td>
                             <td className="px-6 py-4">
-                                000111222
+                                0988838437
                             </td>
                             <td className="px-6 py-4">
-                                S1 Teknik Informatika
+                                Hendra
                             </td>
                             <td className="px-6 py-4">
-                                5
+                                2023
                             </td>
                             <td className="px-6 py-4">
-                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>Detail Anggota</button>
+                                Universitas Terbuka
+                            </td>
+                            <td className="px-6 py-4">
+                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>
+                                    Detail
+                                </button>
                             </td>
                             <td className="px-6 py-4 space-x-2">
                                 <button className='outline-none border-none bg-blue-400 text-white rounded-md py-2 px-3 text-sm'>
@@ -75,22 +83,27 @@ const Members = () => {
                         </tr>
                         <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                2
+                                1
                             </th>
-                            <td className="px-6 py-4">
-                                Hendra Adriyanto PP
+                            <td className="px-6 py-4 w-[300px]">
+                                Pemrograman Desktop edisi I Desktop Desktop Desktop Desktop 
                             </td>
                             <td className="px-6 py-4">
-                                044254264
+                                0988838437
                             </td>
                             <td className="px-6 py-4">
-                                S1 Sistem Informasi
+                                Hendra
                             </td>
                             <td className="px-6 py-4">
-                                6
+                                2023
                             </td>
                             <td className="px-6 py-4">
-                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>Detail Anggota</button>
+                                Universitas Terbuka
+                            </td>
+                            <td className="px-6 py-4">
+                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>
+                                    Detail
+                                </button>
                             </td>
                             <td className="px-6 py-4 space-x-2">
                                 <button className='outline-none border-none bg-blue-400 text-white rounded-md py-2 px-3 text-sm'>
@@ -103,22 +116,27 @@ const Members = () => {
                         </tr>
                         <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                2
+                                1
                             </th>
-                            <td className="px-6 py-4">
-                                Hendra Adriyanto PP
+                            <td className="px-6 py-4 w-[300px]">
+                                Pemrograman Desktop edisi I Desktop Desktop Desktop Desktop 
                             </td>
                             <td className="px-6 py-4">
-                                044254264
+                                0988838437
                             </td>
                             <td className="px-6 py-4">
-                                S1 Sistem Informasi
+                                Hendra
                             </td>
                             <td className="px-6 py-4">
-                                6
+                                2023
                             </td>
                             <td className="px-6 py-4">
-                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>Detail Anggota</button>
+                                Universitas Terbuka
+                            </td>
+                            <td className="px-6 py-4">
+                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>
+                                    Detail
+                                </button>
                             </td>
                             <td className="px-6 py-4 space-x-2">
                                 <button className='outline-none border-none bg-blue-400 text-white rounded-md py-2 px-3 text-sm'>
@@ -131,106 +149,27 @@ const Members = () => {
                         </tr>
                         <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                2
+                                1
                             </th>
-                            <td className="px-6 py-4">
-                                Hendra Adriyanto PP
+                            <td className="px-6 py-4 w-[300px]">
+                                Pemrograman Desktop edisi I Desktop Desktop Desktop Desktop 
                             </td>
                             <td className="px-6 py-4">
-                                044254264
+                                0988838437
                             </td>
                             <td className="px-6 py-4">
-                                S1 Sistem Informasi
+                                Hendra
                             </td>
                             <td className="px-6 py-4">
-                                6
+                                2023
                             </td>
                             <td className="px-6 py-4">
-                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>Detail Anggota</button>
+                                Universitas Terbuka
                             </td>
-                            <td className="px-6 py-4 space-x-2">
-                                <button className='outline-none border-none bg-blue-400 text-white rounded-md py-2 px-3 text-sm'>
-                                    Edit
+                            <td className="px-6 py-4">
+                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>
+                                    Detail
                                 </button>
-                                <button className='outline-none border-none bg-red-400 text-white rounded-md py-2 px-3 text-sm'>
-                                    Delete
-                                </button>
-                            </td>
-                        </tr>
-                        <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-                            <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                2
-                            </th>
-                            <td className="px-6 py-4">
-                                Hendra Adriyanto PP
-                            </td>
-                            <td className="px-6 py-4">
-                                044254264
-                            </td>
-                            <td className="px-6 py-4">
-                                S1 Sistem Informasi
-                            </td>
-                            <td className="px-6 py-4">
-                                6
-                            </td>
-                            <td className="px-6 py-4">
-                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>Detail Anggota</button>
-                            </td>
-                            <td className="px-6 py-4 space-x-2">
-                                <button className='outline-none border-none bg-blue-400 text-white rounded-md py-2 px-3 text-sm'>
-                                    Edit
-                                </button>
-                                <button className='outline-none border-none bg-red-400 text-white rounded-md py-2 px-3 text-sm'>
-                                    Delete
-                                </button>
-                            </td>
-                        </tr>
-                        <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-                            <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                2
-                            </th>
-                            <td className="px-6 py-4">
-                                Hendra Adriyanto PP
-                            </td>
-                            <td className="px-6 py-4">
-                                044254264
-                            </td>
-                            <td className="px-6 py-4">
-                                S1 Sistem Informasi
-                            </td>
-                            <td className="px-6 py-4">
-                                6
-                            </td>
-                            <td className="px-6 py-4">
-                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>Detail Anggota</button>
-                            </td>
-                            <td className="px-6 py-4 space-x-2">
-                                <button className='outline-none border-none bg-blue-400 text-white rounded-md py-2 px-3 text-sm'>
-                                    Edit
-                                </button>
-                                <button className='outline-none border-none bg-red-400 text-white rounded-md py-2 px-3 text-sm'>
-                                    Delete
-                                </button>
-                            </td>
-                        </tr>
-                        <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-                            <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                2
-                            </th>
-                            <td className="px-6 py-4">
-                                Hendra Adriyanto PP
-                            </td>
-                            <td className="px-6 py-4">
-                                044254264
-                            </td>
-                            <td className="px-6 py-4">
-                                S1 Sistem Informasi
-                            </td>
-                            <td className="px-6 py-4">
-                                6
-                            </td>
-                            <td className="px-6 py-4">
-                                <button className='outline-none bg-transparent border border-gray-200 rounded-md py-2 px-3 text-sm'>Detail Anggota</button>
                             </td>
                             <td className="px-6 py-4 space-x-2">
                                 <button className='outline-none border-none bg-blue-400 text-white rounded-md py-2 px-3 text-sm'>
@@ -248,4 +187,4 @@ const Members = () => {
     )
 }
 
-export default Members
+export default BooksCollection

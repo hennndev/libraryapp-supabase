@@ -18,27 +18,27 @@ const Sidebar = () => {
                         <MdDashboard className='text-white text-2xl mr-2 group-hover:text-gray-700'/>
                         Dashboard
                     </Link>
-                    <Link href='/dashboard' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
+                    <Link href='/books-collection' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
                         <MdLibraryBooks className='text-white text-2xl mr-2 group-hover:text-gray-700'/>
                         Koleksi Buku
                     </Link>
-                    <Link href='/dashboard' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
+                    <Link href='/members' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
                         <FaUsers className='text-white text-2xl mr-2 group-hover:text-gray-700'/>
                         Keanggotaan
                     </Link>
-                    <Link href='/dashboard' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
+                    <Link href='/books-borrowing' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
                         <RiInboxUnarchiveFill className='text-white text-2xl mr-2 group-hover:text-gray-700'/>
                         Peminjaman
                     </Link>
-                    <Link href='/dashboard' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
+                    <Link href='/books-returning' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
                         <MdOutlineRepeat className='text-white text-2xl mr-2 group-hover:text-gray-700'/>
                         Pengembalian
                     </Link>
-                    <Link href='/dashboard' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
+                    <Link href='/reports' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
                         <MdPrint className='text-white text-2xl mr-2 group-hover:text-gray-700'/>
                         Laporan
                     </Link>
-                    <Link href='/dashboard' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
+                    <Link href='/settings' className='group flexx text-white text-lg hover:bg-[#F1F8E8] hover:text-gray-700 px-6    py-2 rounded-xl outline-none'>
                         <MdSettings className='text-white text-2xl mr-2 group-hover:text-gray-700'/>
                         Setting
                     </Link>
