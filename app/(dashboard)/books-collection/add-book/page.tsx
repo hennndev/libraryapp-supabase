@@ -1,11 +1,14 @@
 import React from 'react'
-import MemberForm from '@/app/components/dashboard/MemberForm'
+import Header from '@/app/components/dashboard/Header'
 import BookForm from '@/app/components/dashboard/BookForm'
 
 const AddBook = () => {
     return (
-        <section className='flex-1 py-10 px-5'>
-            <BookForm/>
+        <section className='flex flex-1 flex-col'>
+            <Header title='Tambah koleksi buku' isSearchInput={false}/>
+            <section className='flex-1 py-10 px-5'>
+                <BookForm/>
+            </section>
         </section>
     )
 }
